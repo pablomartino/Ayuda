@@ -1,0 +1,38 @@
+[
+ {
+  "semana": "2026-11-02",
+  "hasta": "2026-11-08",
+  "persona": "Nacho",
+  "minimejoras_confirmadas": 0,
+  "minimejoras_candidatas": 3,
+  "reuniones_cliente": 0,
+  "reuniones_con_entregable": 0,
+  "entrevistas_internas": 1,
+  "entrevistas_con_oportunidad": 0,
+  "proyectos_entregados": 0
+ },
+ {
+  "semana": "2026-11-02",
+  "hasta": "2026-11-08",
+  "persona": "Nadia",
+  "minimejoras_confirmadas": 0,
+  "minimejoras_candidatas": 1,
+  "reuniones_cliente": 2,
+  "reuniones_con_entregable": 1,
+  "entrevistas_internas": 1,
+  "entrevistas_con_oportunidad": 0,
+  "proyectos_entregados": 0
+ },
+ {
+  "semana": "2026-11-02",
+  "hasta": "2026-11-08",
+  "persona": "Iara",
+  "minimejoras_confirmadas": 2,
+  "minimejoras_candidatas": 0,
+  "reuniones_cliente": 3,
+  "reuniones_con_entregable": 1,
+  "entrevistas_internas": 1,
+  "entrevistas_con_oportunidad": 1,
+  "proyectos_entregados": 0
+ }
+]

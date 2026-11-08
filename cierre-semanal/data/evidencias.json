@@ -1,0 +1,156 @@
+[
+ {
+  "id": "2026-11-02-01",
+  "semana": "2026-11-02",
+  "persona": "Nacho",
+  "tipo": "Minimejora",
+  "fecha": "2026-11-05",
+  "detalle": "#168503 Hotel España: campos obligatorios en Cargar Reserva",
+  "entregable": "Pasó por Tech y se cerró OK",
+  "estado": "Candidata",
+  "link": "https://nexus.getpxsol.com/soporte/tickets/cmw27vk2l0ifdmv0er6zdw1gg"
+ },
+ {
+  "id": "2026-11-02-02",
+  "semana": "2026-11-02",
+  "persona": "Nacho",
+  "tipo": "Minimejora",
+  "fecha": "2026-11-02",
+  "detalle": "#167068 Zelená Voda: total de huéspedes (adultos y niños) al cargar reserva",
+  "entregable": "Pasó por Tech y se cerró OK (#166841 era el mismo pedido)",
+  "estado": "Candidata",
+  "link": "https://nexus.getpxsol.com/soporte/tickets/cmvve5so50v75qf01j6cdp9vb"
+ },
+ {
+  "id": "2026-11-02-03",
+  "semana": "2026-11-02",
+  "persona": "Nacho",
+  "tipo": "Minimejora",
+  "fecha": "2026-11-03",
+  "detalle": "#166440 Yelcho: email del huésped obligatorio al cargar reserva",
+  "entregable": "Pasó por Tech y se cerró OK",
+  "estado": "Candidata",
+  "link": "https://nexus.getpxsol.com/soporte/tickets/cmvtkn1a60jtekc0et1nnhzbx"
+ },
+ {
+  "id": "2026-11-02-04",
+  "semana": "2026-11-02",
+  "persona": "Nacho",
+  "tipo": "Entrevista interna",
+  "fecha": "2026-11-04",
+  "detalle": "Egresos de Onboarding (con Gastón Corvalán)",
+  "entregable": "Sin oportunidad en backlog identificada; no confirmó la invitación",
+  "estado": "Candidata",
+  "link": ""
+ },
+ {
+  "id": "2026-11-02-05",
+  "semana": "2026-11-02",
+  "persona": "Nadia",
+  "tipo": "Reunión con cliente",
+  "fecha": "2026-11-02",
+  "detalle": "Anastasio Hotel & Beach Club: consulta de facturación (con Pablo)",
+  "entregable": "Proyecto GNS: medios de pago, lote/cupón y recibos (creado por Nadia el 2/11)",
+  "estado": "Con entregable",
+  "link": "https://nexus.getpxsol.com/soporte/proyectos/cmvzgixms04g4ml0e3ogin6r1"
+ },
+ {
+  "id": "2026-11-02-06",
+  "semana": "2026-11-02",
+  "persona": "Nadia",
+  "tipo": "Reunión con cliente",
+  "fecha": "2026-11-04",
+  "detalle": "Patagonia Andina: integración facturación SII (con Pablo)",
+  "entregable": "Solo el bug #166214 cerrado el 6/11; sin proyecto ni minimejora",
+  "estado": "Sin entregable",
+  "link": "https://nexus.getpxsol.com/soporte/tickets/cmvsea6im07l1mx0ed00sqhgs"
+ },
+ {
+  "id": "2026-11-02-07",
+  "semana": "2026-11-02",
+  "persona": "Nadia",
+  "tipo": "Minimejora",
+  "fecha": "2026-11-06",
+  "detalle": "#167131 Anastasio: formato de factura en 80 mm",
+  "entregable": "Cerrada OK, sin paso por Tech registrado",
+  "estado": "Candidata",
+  "link": "https://nexus.getpxsol.com/soporte/tickets/cmvvgcal80jtoql0ejuq2kgwn"
+ },
+ {
+  "id": "2026-11-02-08",
+  "semana": "2026-11-02",
+  "persona": "Nadia",
+  "tipo": "Entrevista interna",
+  "fecha": "2026-11-04",
+  "detalle": "Egresos de Onboarding (con Gastón Corvalán)",
+  "entregable": "Sin oportunidad en backlog identificada",
+  "estado": "Candidata",
+  "link": ""
+ },
+ {
+  "id": "2026-11-02-09",
+  "semana": "2026-11-02",
+  "persona": "Iara",
+  "tipo": "Minimejora",
+  "fecha": "2026-11-05",
+  "detalle": "#159894 Yelcho: folio impreso más conciso",
+  "entregable": "Etiqueta minimejora, cerrada OK",
+  "estado": "Confirmada",
+  "link": "https://nexus.getpxsol.com/soporte/tickets/cmuxek8un04h9nv0efjkb48nq"
+ },
+ {
+  "id": "2026-11-02-10",
+  "semana": "2026-11-02",
+  "persona": "Iara",
+  "tipo": "Minimejora",
+  "fecha": "2026-11-04",
+  "detalle": "#168011 Nahuel Huapi: acompañantes en la ficha de check-in imprimible",
+  "entregable": "Etiqueta minimejora, cerrada OK",
+  "estado": "Confirmada",
+  "link": "https://nexus.getpxsol.com/soporte/tickets/cmw0qlb2g08ocqi0e1nt87dge"
+ },
+ {
+  "id": "2026-11-02-11",
+  "semana": "2026-11-02",
+  "persona": "Iara",
+  "tipo": "Reunión con cliente",
+  "fecha": "2026-11-04",
+  "detalle": "Zentiva Pinamar: revisión operativa (con Pablo)",
+  "entregable": "Mejora #168587 contenido de confirmación en el cuerpo del mail (resuelta sin desarrollo el mismo día)",
+  "estado": "Con entregable",
+  "link": "https://nexus.getpxsol.com/soporte/tickets/cmw2buri00fzkql0e23heez0v"
+ },
+ {
+  "id": "2026-11-02-12",
+  "semana": "2026-11-02",
+  "persona": "Iara",
+  "tipo": "Reunión con cliente",
+  "fecha": "2026-11-03",
+  "detalle": "Cabañas Sol Mediterráneo: capacitación PMS",
+  "entregable": "Sin proyecto ni minimejora",
+  "estado": "Sin entregable",
+  "link": ""
+ },
+ {
+  "id": "2026-11-02-13",
+  "semana": "2026-11-02",
+  "persona": "Iara",
+  "tipo": "Reunión con cliente",
+  "fecha": "2026-11-02",
+  "detalle": "Hostal Celta: sala de consulta",
+  "entregable": "Sin proyecto ni minimejora",
+  "estado": "Sin entregable",
+  "link": "https://nexus.getpxsol.com/soporte/tickets/cmvz9c85xo6v9ml015zo84hjb"
+ },
+ {
+  "id": "2026-11-02-14",
+  "semana": "2026-11-02",
+  "persona": "Iara",
+  "tipo": "Entrevista interna",
+  "fecha": "2026-11-04",
+  "detalle": "Egresos de Onboarding (con Gastón Corvalán)",
+  "entregable": "Oportunidades en backlog #169151 y #169152 (PMS nuevo), creadas el 5/11",
+  "estado": "Con entregable",
+  "link": "https://nexus.getpxsol.com/soporte/tickets/cmw3x4tft0ny7qf0ezl92re9g"
+ }
+]

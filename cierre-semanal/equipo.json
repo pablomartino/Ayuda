@@ -1,0 +1,20 @@
+{
+  "lider": {"nombre": "Pablo Martino", "userId": "cmmurqg500014n50zyvrswxrl", "email": "pablo@pxsol.com"},
+  "teamIdPMS": "cmnryhdcc0008qn8wi38uutgs",
+  "periodoOKR": "Q4-26",
+  "panelUrl": "https://claude.ai/artifact/SZ9sRMv3VYVVncz338NnEg",
+  "personas": [
+    {"nombre": "Nacho", "nombreCompleto": "Nacho Morales", "rol": "Developer PMS", "userId": "cmou4jiz500r0r51uuzjh0g01", "email": "imorales@pxsol.com"},
+    {"nombre": "Nadia", "nombreCompleto": "Nadia Viñabal", "rol": "Developer PMS", "userId": "cmppruu5j03kipl01lg7ldc31", "email": "nvinabal@pxsol.com"},
+    {"nombre": "Iara", "nombreCompleto": "Iara Diaz", "rol": "Implementadora PMS", "userId": "cmod8d6de00jon11nbdd226p8", "email": "iara@pxsol.com"}
+  ],
+  "krManuales": {
+    "minimejoras": "Minimejoras para reducir churn (entregadas)",
+    "proyectos": "Proyectos anunciables entregados",
+    "reuniones": "Reuniones semanales con cliente + entregable (proyecto o minimejora)",
+    "entrevistas": "Entrevistas internas (Onb/Ventas/Upsell) + oportunidad en backlog",
+    "pmsNuevo": "Clientes en PMS Nuevo"
+  },
+  "equiposInternos": ["Onboarding", "Argentina 1", "Argentina 2", "Chile", "Colombia", "Upselling", "Ventas"],
+  "tagMinimejora": "minimejora"
+}
