@@ -49,7 +49,11 @@ Cada hilo cae en UNA categoría (la primera que aplique, en este orden):
   `ocasa.com` salvo que sea un envío mío, etc.).
 - `Tus productos no están públicos` y similares de plataformas.
 
-> CES **negativo o neutro** NO es informativo: va a 🟠 Alerta.
+> CES **negativo o neutro** NO es informativo: va a 🟠 Alerta. En los asuntos
+> aparecen como `(Bajo)` y `(Neutral)`.
+
+> `Contratos retenidos: …` NO se archiva ni se marca leído en masa: Pablo los
+> revisa (aviso para ver si se puede aumentar valor o uso del cliente).
 
 ## Etiquetas de Gmail que usa el sistema
 
@@ -75,3 +79,17 @@ Agregá acá excepciones puntuales (remitente → categoría):
 - `claudio@pxsol.com` con "Recordatorio: ticket" → 🔴 Responder
 - `notificaciones@pxsol.com` → según asunto (ver arriba); por defecto 🟢 Informativo
 - `no-reply@pxsol.com` → según asunto (ver arriba); por defecto 🟢 Informativo
+- `bajas@pxsol.com`, `pagos@pxsol.com` (Downselling, Corte de servicio, Orden de Baja)
+  → 🟢 Informativo, salvo "Contratos retenidos" (ver arriba)
+- `notifications@github.com` → 🟢 Informativo
+- Invitaciones de calendario de más de 7 días → ⚪ Ruido (el calendario ya las tiene)
+
+### Remitentes automáticos que parecen humanos (→ ⚪ Ruido)
+
+Prefijos: `hola@`, `hi@`, `hello@`, `envio@`, `info@`, `news@`, `newsletter@`, `marketing@`.
+Dominios/remitentes: `alaimolabs.com`, `nerdear.la`, `infohotelera.com.ar`,
+`lidr.co`, `sender.net`, `productdirection.co`, `coderhouse.com`,
+`hackmetrix.com`, `anura.com.ar`, `ocasa.com`, `email.openai.com`.
+
+Excepción: avisos de seguridad (`support@railway.app` "Security Disclosure",
+`soporte@cmreservas.com` "AVISO DE SEGURIDAD", Xubio) → 🟠 Alerta.
