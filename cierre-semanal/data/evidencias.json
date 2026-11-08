@@ -83,7 +83,7 @@
   "persona": "Iara",
   "tipo": "Reunión con cliente",
   "fecha": "2026-11-04",
-  "detalle": "Zentiva Pinamar: revisión operativa (grabada, 68 min)",
+  "detalle": "Zentiva Pinamar: revisión operativa (grabada por Iara, 68 min)",
   "entregable": "Mejora #168587: contenido de la confirmación en el cuerpo del mail",
   "estado": "Con entregable",
   "sugerencia": "Pueden salir más: minimejora para que el texto copiado del presupuesto incluya una validez configurable; minimejora para mostrar la fecha en el informe de desayuno de la versión nueva; proyecto para que el family plan de Booking bloquee las dos habitaciones físicas.",
@@ -96,11 +96,37 @@
   "persona": "Iara",
   "tipo": "Reunión con cliente",
   "fecha": "2026-11-03",
-  "detalle": "Cabañas Sol Mediterráneo: capacitación PMS (grabada, 49 min)",
+  "detalle": "Cabañas Sol Mediterráneo: capacitación PMS (grabada por Iara, 49 min)",
   "entregable": "Ninguno todavía",
   "estado": "Sin entregable",
   "sugerencia": "Minimejora: avisar en el PMS cuando el plan directo tiene tarifas en cero (el hotel no vendía por eso). Minimejora: dejar a mano en el PMS el cobro del 50% al confirmar, que hoy obliga a pedir ayuda al equipo de Motor.",
   "callId": "cmw0zj52u06esqb0e512fzob5",
   "link": ""
+ },
+ {
+  "id": "2026-11-02-09",
+  "semana": "2026-11-02",
+  "persona": "Nadia",
+  "tipo": "Reunión con cliente",
+  "fecha": "2026-11-02",
+  "detalle": "Anastasio Hotel & Beach Club: facturación, folios y GNS (grabada por Pablo, 93 min)",
+  "entregable": "Proyecto GNS: medios de pago, lote/cupón y recibos (creado por Nadia el 2/11) y minimejora #167131 factura del restaurante en 80 mm",
+  "estado": "Con entregable",
+  "sugerencia": "",
+  "callId": "cmvzlp4ju02ikuo0edsrngk0c",
+  "link": "https://nexus.getpxsol.com/soporte/proyectos/cmvzgixms04g4ml0e3ogin6r1"
+ },
+ {
+  "id": "2026-11-02-10",
+  "semana": "2026-11-02",
+  "persona": "Nadia",
+  "tipo": "Reunión con cliente",
+  "fecha": "2026-11-04",
+  "detalle": "Patagonia Andina: integración DTE con el SII (grabada por Pablo, 49 min)",
+  "entregable": "Solo el bug #166214 cerrado el 6/11",
+  "estado": "Sin entregable",
+  "sugerencia": "Proyecto: emitir los DTE a través de la API de iGlobal para no tener dos emisores en la misma razón social. Minimejora: aviso de saltos de folios y de documentos que el SII no recibió.",
+  "callId": "cmw2ezt1f03xmql0e23uftl2o",
+  "link": "https://nexus.getpxsol.com/soporte/tickets/cmvsea6im07l1mx0ed00sqhgs"
  }
 ]

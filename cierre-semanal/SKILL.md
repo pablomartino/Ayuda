@@ -39,24 +39,25 @@ Excluir: cerradas en "Votación de Mejora"/"Vota Mejora" (quedaron para votar), 
 
 ### 2.2 Reuniones con cliente + entregable
 
-**Regla: solo cuenta la reunión que la persona grabó en Nexus.** No se mira el calendario.
+**Regla: una reunión cuenta para una persona si (1) está grabada en Nexus, (2) la persona participó y (3) salió al menos una minimejora o un proyecto.** No se mira el calendario. La puede haber grabado la persona o Pablo.
 
-Fuente única: `nexus_list_calls` con `vendorId` de cada persona, `canal=video`, `from=SEMANA`, `to=HASTA`.
+Fuentes: `nexus_list_calls` con `canal=video`, `from=SEMANA`, `to=HASTA`, una vez por cada `vendorId`: las 3 personas y Pablo (`lider.userId` de `equipo.json`).
 - **Grabada** = `connected: true` y `endedAt` más de un minuto después de `startedAt` (las fichas del calendario sin agente quedan con duración 0 y `connected: null`: no cuentan).
 - **Con cliente** = tiene `companyId`, `contactId` o `leadId`. Sin vínculos es interna (ver 2.3).
 - Una misma reunión puede tener dos fichas (la del calendario y la grabada): contar solo la grabada.
+- **Participó**: en las grabadas por la persona, se da por hecho. En las grabadas por Pablo, leer la transcripción (`nexus_get_call` con `includeTranscript: true`, todas las páginas hasta que `siguienteDesde` sea null) y ver si la persona habla (aparece como «Nombre: …»). Si solo la nombran sin que hable, marcarlo como dudoso en `entregable`. Las transcripciones son largas: conviene delegar esta lectura a un subagente que devuelva solo quién habló en cada llamada.
+- Una reunión de Pablo con dos de los chicos genera una fila por persona (mismo `callId`).
 
 Para cada reunión grabada con cliente, leer `nexus_get_call` (resumen, `dolores`, `nextSteps`; la transcripción solo si hace falta) y buscar el entregable dentro de la semana y hasta 7 días después, para esa empresa o contacto:
 - un proyecto creado (`nexus_list_projects`, `createdAt` en rango; comparar empresa/nombre/summary), o
 - un ticket `IMPROVEMENT`/`FEATURE` creado (`nexus_list_tickets` `companyId` o `contactId`, `createdFrom`) cuyo tema salga de la reunión, o una minimejora de 2.1 de esa empresa.
 
-Con entregable → `Con entregable` (cuál en `entregable`, link). Sin entregable → `Sin entregable`. Un bug arreglado no es entregable para este KR: anotarlo igual en `entregable`.
+Con entregable → `Con entregable`: cuenta para el OKR (cuál en `entregable`, link). Sin entregable → `Sin entregable`: no cuenta y va a la alerta del panel con su sugerencia. Un bug arreglado no es entregable para este KR: anotarlo igual en `entregable`.
 
 **Sugerencia (siempre que la reunión tenga temas sin convertir):** completar `sugerencia` con 1 a 3 cosas concretas que pueden salir de esa reunión para que cuente en el OKR, sacadas de los `dolores`/pedidos del cliente, cada una marcada como "Minimejora: …" (cambio chico en el sistema, se entrega en días) o "Proyecto: …" (requiere PRD o varias tareas). No sugerir configuraciones ni capacitaciones. Si la reunión ya tiene entregable pero quedaron otros pedidos, sugerir igual con "Pueden salir más: …". El panel muestra estas sugerencias como alerta.
 
 Guardar en la fila `callId` (id de la llamada). Si el plazo de 7 días no venció, dejar `Sin entregable` y revisarla en el cierre siguiente (actualizar la fila de la semana anterior si apareció el entregable).
 
-Las reuniones grabadas por otra persona (por ejemplo, Pablo) a las que asistió alguno de los chicos no cuentan; si las hubo, mencionarlas en el mail para que la próxima vez graben ellos.
 
 ### 2.3 Entrevistas internas + oportunidad en backlog
 
